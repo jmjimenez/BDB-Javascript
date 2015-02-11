@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Ficha</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/jquery.js">
+        </script>
+        <script type="text/javascript" src="js/bootstrap-dropdown.js">
+        </script>
+        <script type="text/javascript" src="js/data.js">
+        </script>
+        <script type="text/javascript" src="js/bdb.js">
+        </script>
+    </head>
+    <body>
+    <!------------12 escenario liquido-------------------------->
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="navbar navbar-inverse">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+                        <div class="nav-collapse collapse navbar-responsive-collapse">
+                            <ul class="nav" id="menu-categorias">
+                            </ul>
+                            <ul class="nav pull-right">
+                                <li>
+                                    <a class="brand" href="buscador.html">Ir al buscador »</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </div>
+            </div>
+            <!-- /navbar-inner -->
+        </div>
+        <div class="row-fluid" id="ficha-libro">
+            <div class="span10">
+                <hr/>
+                <a id="button-back" href="#" class="btn pull-right" style="margin: 0px 0px 0px 0px;">Volver</a>
+                <div class="span4">
+                <h3 id="book-title">Ficha</h3>
+               	  <div id="book-categories">
+                		<div>
+	                    	<span class="label label-info">Atención a la dependencia</span>
+	                    	<i class="icon-chevron-right"></i>
+	                    	<span class="label label-info">Ciclo vital</span>
+	                    	<i class="icon-chevron-right"></i>
+		                    <span class="label label-info">Envejecimiento mayores</span>
+						    <i class="icon-chevron-right"></i>
+                    	  <span class="label label-info">Atención a la dependencia</span>
+	                    	<i class="icon-chevron-right"></i>
+	                    	<span class="label label-info">Ciclo vital</span>
+	                    	<i class="icon-chevron-right"></i>
+	                      <span class="label label-info">Envejecimiento mayores</span>
+						</div>
+					</div>
+                    <hr/>
+                    <span class="label label-important" id="book-authors">Vera, A.</span>
+                  <p>
+                        <small id="book-publisher">
+                            Ediciones Aldara | 2011 | Edición ebook
+                        </small>
+                  </p>
+                    <p>
+                        <small>
+                            <strong id="book-isbn">ISBN: 76567567567</strong>
+                        </small>
+                    </p>
+                    <hr/>
+                    <p class="label label-inverse pull-left" id="book-link">
+                        <small>
+                            <a href="#" target="_blank"><i class="icon-share icon-white"></i>&nbsp;Enlace externo</a>
+                        </small>
+                    </p>
+                    <p class="label label-inverse pull-right" id="book-pdf">
+                        <small>
+                            <a href="#"><i class="icon-file icon-white"></i>&nbsp;Descarga pdf</a>
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--paginador-->
+        <ul class="pager" style="margin:20px 0px 0px 25px;">
+            <li class="previous">
+                <a id="button-prev" href="#">&larr; Anterior</a>
+            </li>
+            <li class="next">
+                <a id="button-next" href="#">Siguiente &rarr;</a>
+            </li>
+        </ul>
+        <!--Fin de paginador-->
+    </div>
+    </div>
+    <!-- /container-fluid -->
+</body>
+</html>
